@@ -3,6 +3,8 @@ Netlogo Agent Based Model for SYSC 525 (taught by Dr. Wayne Wakeland) by Joachim
 
 Below is an edited version (pictures omitted) of the report on the model. It was written for the intended audience of Wayne Wakeland and Dale Frakes and reflects my understanding of their preferences. 
 
+Project was completed in Netlogo 6.0. Primary references for troubleshooing was netlogocommons.com, stackoverflow
+
 
 Problem statement
 
