@@ -6,13 +6,13 @@ Below is an edited version (pictures omitted) of the report on the model. It was
 
 Problem statement
 
-	Can simple rules produce complex political behavior? And does allowing sheep to eat some of their neighbors produce complex behavior such as kingdoms with territories, armies, and cyclical history? 
+Can simple rules produce complex political behavior? And does allowing sheep to eat some of their neighbors produce complex behavior such as kingdoms with territories, armies, and cyclical history? 
 
 
 Summary
 
-	The Sheep-Wolf depredation model is a classic intuitive Netlogo model. But what if instead of wolves eating sheep like in biology the sheep eat other sheep like in politics? I followed this reasoning as far as I could and maneuvered around coding limitations (mostly my own but also some of Netlogo’s) to try to get to my goal of territorial kingdoms and perhaps even armies. Unfortunately those did not emerge. But there were a number of interesting features in the final model. The most obvious being the unplanned emergence of complete population stability during growth and at max population. 
-	Building the model followed three major themes
+The Sheep-Wolf depredation model is a classic intuitive Netlogo model. But what if instead of wolves eating sheep like in biology the sheep eat other sheep like in politics? I followed this reasoning as far as I could and maneuvered around coding limitations (mostly my own but also some of Netlogo’s) to try to get to my goal of territorial kingdoms and perhaps even armies. Unfortunately those did not emerge. But there were a number of interesting features in the final model. The most obvious being the unplanned emergence of complete population stability during growth and at max population. 
+Building the model followed three major themes
 1. Changing some of the basic rules of the model per intuition. This included things such as changing grass-sheep connection so that multiple sheep could eat from one field and reducing roaming to those that were hungry. 
 2. Getting the model to work. There were nine major saved models that explored how to get a stable model. The most difficult part was attempting to get sheep to prey on other sheep. 
 3. Incorporating Moore neighborhoods. The prey mechanic was abandoned and the concept of subjugation by energy transfer was established. Then interesting dynamics and emergent properties appeared.
@@ -20,8 +20,8 @@ Summary
 
 Background
 
-	The Wolf Sheep Predation model is a simple and fun model found in the Netlogo library that is automatically downloaded with the application. The model is so well regarded that even in that limited library that there are multiple variations that explore different ideas. The dynamics of the model are pretty simple, the wolves and sheep are two breeds of turtles, they roam the world. If the sheep find grass they eat it. If the wolves find sheep they eat them. The interesting question is how populations of wolves and sheep react to each other and how can they stabilize. There are multiple parameters that can be changed and some have a large effect and others a small one. The model often results in extinction. 
-	What I found interesting (that no one else seemed to find interesting) was that if the wolves went extinct first the sheep would quickly come into balance with the grass and a stable population cycle would emerge. The sheep would eat the grass, the grass would all die, the sheep would start to die, the grass would grow back and the sheep would recover from a population crash. There was something there. It just needed to be explored. 
+The Wolf Sheep Predation model is a simple and fun model found in the Netlogo library that is automatically downloaded with the application. The model is so well regarded that even in that limited library that there are multiple variations that explore different ideas. The dynamics of the model are pretty simple, the wolves and sheep are two breeds of turtles, they roam the world. If the sheep find grass they eat it. If the wolves find sheep they eat them. The interesting question is how populations of wolves and sheep react to each other and how can they stabilize. There are multiple parameters that can be changed and some have a large effect and others a small one. The model often results in extinction. 
+What I found interesting (that no one else seemed to find interesting) was that if the wolves went extinct first the sheep would quickly come into balance with the grass and a stable population cycle would emerge. The sheep would eat the grass, the grass would all die, the sheep would start to die, the grass would grow back and the sheep would recover from a population crash. There was something there. It just needed to be explored. 
 Screenshots of stable sheep/grass populations from the Netlogo default library.
 
 
